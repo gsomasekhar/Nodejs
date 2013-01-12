@@ -12,7 +12,7 @@ require('./settings').boot(app);
 app.get('/', function(req, res){
     console.log("End the reulst");
     res.end("Displaying the result");
- // res.render('home', {title : ''});
+res.render('home', {title : ''});
 });
 
 var port = process.env.PORT || 3001;
