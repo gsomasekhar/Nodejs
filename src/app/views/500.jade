@@ -1,0 +1,6 @@
+#error-message-box
+  p Sorry, something went wrong.
+  #error-stack-trace
+    - if(showStack)
+      pre
+        code!= error.stack

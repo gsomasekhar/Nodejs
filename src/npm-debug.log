@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'connect-csrf' ]
+2 info using npm@1.1.32
+3 info using node@v0.8.0
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\somasekhar\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\package.json
+9 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\express\package.json
+10 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\express-csrf\package.json
+11 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\express-messages\package.json
+12 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\gzippo\package.json
+13 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\jade\package.json
+14 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\mongoose\package.json
+15 verbose read json C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\node_modules\stylus\package.json
+16 verbose from cache C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src\package.json
+17 verbose readDependencies using package.json deps
+18 verbose cache add [ 'connect-csrf', null ]
+19 silly cache add name=undefined spec="connect-csrf" args=["connect-csrf",null]
+20 verbose parsed url { pathname: 'connect-csrf',
+20 verbose parsed url   path: 'connect-csrf',
+20 verbose parsed url   href: 'connect-csrf' }
+21 verbose addNamed [ 'connect-csrf', '' ]
+22 verbose addNamed [ null, '' ]
+23 silly addNameRange { name: 'connect-csrf', range: '', hasData: false }
+24 verbose url raw connect-csrf
+25 verbose url resolving [ 'https://registry.npmjs.org/', './connect-csrf' ]
+26 verbose url resolved https://registry.npmjs.org/connect-csrf
+27 http GET https://registry.npmjs.org/connect-csrf
+28 http 404 https://registry.npmjs.org/connect-csrf
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+29 silly registry.get     date: 'Wed, 09 Jan 2013 18:18:55 GMT',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'cache-control': 'must-revalidate' } ]
+30 error 404 'connect-csrf' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Windows_NT 6.1.7600
+32 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "connect-csrf"
+33 error cwd C:\Users\somasekhar\Documents\NetBeansProjects\Nodejs\src
+34 error node -v v0.8.0
+35 error npm -v 1.1.32
+36 error code E404
+37 error message 404 Not Found: connect-csrf
+38 verbose exit [ 1, true ]
