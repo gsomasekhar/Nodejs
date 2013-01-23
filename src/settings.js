@@ -72,9 +72,10 @@ function bootApplication(app) {
 
   app.use(stylus.middleware({
       debug: true
-    , src: __dirname + '/app/stylus'
+    ,force:true, 
+    src: __dirname + '/app/stylus'
     , dest: __dirname + '/public'
-    , compile: compile
+    
   }));
 
   // the middleware itself does not serve the static
